@@ -145,11 +145,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 💖 Support
 
-<a href="https://www.buymeacoffee.com/yourusername">
-  <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" width="200px"/>
-</a>
 
----
 
 <p align="center">
   Made with ❤️ by vaibhaw srivastav
