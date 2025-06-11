@@ -1,119 +1,156 @@
-# 🚀 Modern Chat Application
+# 🚀 Modern Real-Time Chat Application
 
-A feature-rich real-time chat application built with React, Node.js, and Socket.IO, offering a sleek and modern user interface with advanced messaging capabilities.
+![Chat Application Banner](./frontend/public/banner.png)
 
-## ✨ Features
+A modern, feature-rich chat application built with React, Socket.IO, and Node.js. Experience real-time messaging with a beautiful UI and advanced features.
 
-### 💬 Core Messaging
-- Real-time messaging with Socket.IO
-- Message status indicators (sent, delivered, read)
+<p align="center">
+  <img src="./frontend/public/demo.gif" alt="Chat App Demo" width="600px"/>
+</p>
+
+## ✨ Key Features
+
+### 💬 Messaging
+- Real-time message delivery with typing indicators
 - Emoji support and file attachments
-- Message history and search
-- Read receipts and typing indicators
-
-### 👥 Connections & Groups
-- Private connections using unique codes
-- Group creation and management
-- Group invitations system
-- Public and private group options
-- Connection request handling
+- Message status (sent, delivered, read)
+- Message search and history
+- Message reactions and replies
 
 ### 📞 Calls
-- Audio and video call support
+- HD audio and video calls
+- Screen sharing capabilities
+- Call recording option
+- Background blur in video calls
 - Call history tracking
-- Missed call notifications
-- In-call controls (mute, speaker, end call)
 
-### 🔐 Authentication & Security
-- Secure user authentication
-- JWT-based authorization
-- Password encryption
-- Protected routes
+### 👥 Social Features
+- User status updates (text, image, video)
+- Story-like status feature
+- Group conversations
+- User presence indicators
+- Contact management
 
 ### 🎨 User Experience
-- Modern, responsive UI with Tailwind CSS
-- Dark mode design
-- Real-time status updates
+- Sleek dark mode interface
+- Responsive design for all devices
 - Custom animations and transitions
+- Intuitive gesture controls
 - Toast notifications
+
+## 🖼️ Screenshots
+
+<div align="center">
+  <img src="./frontend/public/chat-screen.png" alt="Chat Screen" width="400px"/>
+  <img src="./frontend/public/calls-screen.png" alt="Calls Screen" width="400px"/>
+</div>
+
+<div align="center">
+  <img src="./frontend/public/status-screen.png" alt="Status Screen" width="400px"/>
+  <img src="./frontend/public/profile-screen.png" alt="Profile Screen" width="400px"/>
+</div>
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React, TailwindCSS, DaisyUI
+<div align="center">
+  <img src="./frontend/public/tech-stack.png" alt="Technology Stack" width="800px"/>
+</div>
+
+- **Frontend**: React 18, TailwindCSS, DaisyUI
 - **Backend**: Node.js, Express
-- **Database**: MongoDB
+- **Database**: MongoDB with Mongoose
 - **Real-time**: Socket.IO
 - **State Management**: Zustand
-- **Authentication**: JWT
+- **Media**: WebRTC for calls
+- **Authentication**: JWT, bcrypt
 
-## 🚀 Getting Started
+## 🚀 Quick Start
 
-1. Clone the repository:
-```sh
+### Prerequisites
+
+- Node.js 16+
+- MongoDB
+- Git
+
+### Installation
+
+1. Clone the repository
+```bash
 git clone https://github.com/yourusername/chat-application.git
+cd chat-application
 ```
 
-2. Install dependencies:
-```sh
-# Install backend dependencies
-cd chat-application
+2. Install dependencies
+```bash
+# Backend dependencies
 npm install
 
-# Install frontend dependencies
+# Frontend dependencies
 cd frontend
 npm install
 ```
 
-3. Set up environment variables:
-```sh
-# Create .env file in root directory
-MONGO_DB_URI=your_mongodb_uri
+3. Environment Setup
+```bash
+# Root directory .env
+MONGO_URI=your_mongodb_uri
 JWT_SECRET=your_jwt_secret
 PORT=5000
+
+# Frontend .env
+VITE_API_URL=http://localhost:5000
+VITE_SOCKET_URL=http://localhost:5000
 ```
 
-4. Run the application:
-```sh
-# Run backend
+4. Start the application
+```bash
+# Start backend (from root directory)
 npm run server
 
-# Run frontend (in a separate terminal)
-cd frontend
+# Start frontend (from frontend directory)
 npm run dev
 ```
 
-## 📱 Screenshots
+## 📱 Mobile View
 
-[Add your application screenshots here]
+<div align="center">
+  <img src="./frontend/public/mobile-view.png" alt="Mobile View" width="300px"/>
+</div>
 
-## 🔧 Project Structure
+## 🔐 Security Features
 
-```
-chat-application/
-├── backend/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── socket/
-│   └── utils/
-└── frontend/
-    ├── src/
-    │   ├── components/
-    │   ├── context/
-    │   ├── hooks/
-    │   └── zustand/
-    └── public/
-```
+- End-to-end encryption for messages
+- Secure file transfer
+- JWT authentication
+- Password hashing with bcrypt
+- XSS protection
+- Rate limiting
 
+## 🎯 future changes
 
+- [ ] Voice messages
+- [ ] Message scheduling
+- [ ] Multi-language support
+- [ ] Push notifications
+- [ ] File compression
+- [ ] Message broadcasting
+
+## 👥 Contributing
+
+We welcome contributions! Please check our [Contributing Guidelines](CONTRIBUTING.md) for details.
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## 💖 Support
 
-- React Icons for the beautiful icons
-- Tailwind CSS for the styling utilities
-- Socket.IO for real-time capabilities
-- MongoDB for database solutions
+<a href="https://www.buymeacoffee.com/yourusername">
+  <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" width="200px"/>
+</a>
+
+---
+
+<p align="center">
+  Made with ❤️ by vaibhaw srivastav
+</p>
