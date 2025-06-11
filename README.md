@@ -41,7 +41,6 @@ A modern, feature-rich chat application built with React, Socket.IO, and Node.js
 ## 🖼️ Screenshots
 
 <div align="center">
-  <img src="./frontend/public/chat-screen.png" alt="Chat Screen" width="400px"/>
   <img src="./frontend/public/calls-screen.png" alt="Calls Screen" width="400px"/>
 </div>
 
